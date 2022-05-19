@@ -1,8 +1,6 @@
 ## Possible solution
 1. get multi of all nums[i]
-2. ans[i] = multi/nums[i] 
-
-
+2. ans[i] = multi/nums[i] \
 `
 def productExceptSelf(self, nums: List[int]) -> List[int]:
         size = len(nums)
