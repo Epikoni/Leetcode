@@ -14,6 +14,5 @@
                 ans[i]=int(mult/nums[i])
             else:
                 ans[i]=mult
-        return ans
-`
+        return ans`   
 >Not work because nums[i] could be 0, mult = 0, ans got wrong
